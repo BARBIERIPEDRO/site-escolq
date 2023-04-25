@@ -10,9 +10,12 @@ padding: 0;
     display: flex;
 justify-content: first baseline;
 align-items: center;
-padding: 10px 0;
+padding: 8px 0;
 }
 
+body{
+    font-family: 'Noto Serif', serif;
+}
 
 
 .cabecalho-imagem{
@@ -21,4 +24,37 @@ padding: 10px 0;
 
 .cabecalho-lista-item{display:inline-block; 
 margin: 2 0px;
+}
+.baska-imagem {
+    width: 30%;
+}
+.baska{
+    background-image: linear-gradient(#960F2F, #F40404);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.baska-div-conteudo{
+    width: 50%;
+}
+.jogador-imagem{
+        width: 120px;
+    }
+    .instagram-icone{
+        width: 24px;
+    }   
+.player-div{
+    text-align: center;
+}
+    .player-titulo{
+        text-align: center;
+        padding: 50px;
+    }
+    .rodape{
+        background-color: #960F2F;
+    }
+.rodape-imagem{
+    height: 40px;
 }
